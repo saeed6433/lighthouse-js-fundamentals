@@ -1,4 +1,4 @@
-const raining = true;
+const raining = false;
 const cold = false;
 
 if (raining) {
@@ -9,7 +9,16 @@ if (cold) {
   console.log("Make sure you pick out a scarf!");
 
 }
+if (!raining){
+console.log("leave your umbrella at home")
+}
+
+
 console.log("end of this excersie!")
+
+
+
+
 
 const temperature = 12;
 
